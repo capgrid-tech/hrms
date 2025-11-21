@@ -52,17 +52,21 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "Payroll 2023-24",
    "fieldname": "payroll_period",
    "fieldtype": "Link",
+   "hidden": 1,
    "in_list_view": 1,
    "label": "Payroll Period",
    "options": "Payroll Period",
+   "read_only": 1,
    "reqd": 1
   },
   {
    "fetch_from": "employee.company",
    "fieldname": "company",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Company",
    "options": "Company"
   },
@@ -112,15 +116,15 @@
    "depends_on": "eval: doc.employee",
    "fieldname": "currency",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Currency",
    "options": "Currency",
-   "print_hide": 1,
-   "reqd": 1
+   "print_hide": 1
   }
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2022-11-08 17:03:56.224987",
+ "modified": "2023-05-17 13:35:02.051224",
  "modified_by": "Administrator",
  "module": "Payroll",
  "name": "Employee Tax Exemption Declaration",
