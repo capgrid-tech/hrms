@@ -9,7 +9,7 @@
  "filters": [],
  "idx": 0,
  "is_standard": "Yes",
- "modified": "2023-04-26 13:53:19.403719",
+ "modified": "2026-03-12 16:52:57.584318",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Employee Leave Balance Summary",
@@ -32,7 +32,7 @@
    "role": "Leave Approver"
   },
   {
-   "role": "Sale Purchase Executive"
+   "role": "ERP User"
   }
  ]
 }
